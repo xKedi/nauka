@@ -1,0 +1,390 @@
+@font-face {
+	font-family: RockN;
+	src: url(RockSans/Rock\ Sans\ Normal.otf);
+}
+
+@font-face {
+	font-family: RockB;
+	src: url(RockSans/Rock\ Sans\ Bold.otf);
+}
+
+body {
+	width: 1520px;
+	height: 2048px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: RockN;
+}
+
+#topNav {
+	position: relative;
+	height: 100px;
+}
+
+.logo {
+	left: 40px;
+	position: absolute;
+	width: 475px;
+	text-align: center;
+	font-family: RockB;
+}
+
+.logo > h2 {
+	margin-top: 13px;
+	margin-bottom: -4px;
+	font-size: 30px;
+	color: #312476;
+}
+
+.logo > h3 {
+	text-decoration-line: underline;
+	text-underline-offset: 4px;
+	letter-spacing: 7px;
+	margin: 0;
+	margin-bottom: 4px;
+	margin-left: 6px;
+	font-size: 13px;
+	color: #989898;
+}
+
+.logo > h4 {
+	margin: 0;
+	font-size: 11px;
+	letter-spacing: 5px;
+	color: #989898;
+}
+
+.menu {
+	position: absolute;
+	right: 377px;
+	text-align: center;
+	width: 675px;
+}
+
+.menu > li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: RockB;
+	padding: 32px;
+	margin-bottom: 0;
+	border-right: 1px solid #d4d4d4;
+	font-size: 11px;
+}
+
+.menu > li:first-child {
+	border-left: 1px solid #d4d4d4;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+.menu a:hover {
+	color: #379cbb;
+}
+
+.login {
+	right: 0;
+	position: absolute;
+	background-image: url(img/tlologin.png);
+	width: 390px;
+	height: 100px;
+	text-transform: uppercase;
+}
+
+.login img {
+	scale: 0.6;
+	float: left;
+}
+
+.login span {
+	position: relative;
+	display: block;
+	font-size: 11px;
+	top: 38px;
+	left: -6px;
+	margin-bottom: 2px;
+}
+
+.login span > a {
+	color: white;
+	text-decoration: none;
+	font-family: RockB;
+}
+
+.login span > a#wyloguj {
+	color: #a09f9f;
+	font-family: RockN;
+}
+
+#banner {
+	width: 1520px;
+	height: 247px;
+}
+
+.menu2 {
+	background-color: #e8e8e8;
+	margin: 0;
+	padding-left: 200px;
+	height: 65px;
+}
+
+.menu2 a {
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+.menu2 > a > li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: RockB;
+	padding: 26px 38px 26px 38px;
+	font-size: 11px;
+}
+
+.menu2 > a > li:hover {
+	background-color: #909090;
+	color: white;
+}
+
+.menu2 > a > li:active {
+	background-color: #909090;
+	color: white;
+}
+
+.container {
+	position: relative;
+	margin-top: 60px;
+	height: 350px;
+}
+
+.uclogo {
+	position: absolute;
+	width: 300px;
+	left: 200px;
+}
+
+.wpis {
+	position: absolute;
+	width: 760px;
+	right: 190px;
+}
+
+#uc {
+	padding: 8px;
+	background-color: #4c0a9f;
+	color: #d8d7d7;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.wpis h1 {
+	font-family: RockB;
+	font-size: 40px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #c2c0c0;
+	padding-bottom: 15px;
+}
+
+.wpis h2 {
+	color: #26b1db;
+	font-size: 22px;
+}
+
+.wpis p {
+	color: #838181;
+	font-size: 17px;
+}
+
+.wpis span {
+	color: #8d8d8d;
+}
+
+.wpis a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #c2bfbf;
+	text-transform: uppercase;
+}
+#czas {
+	height: 615px;
+	background-image: url(img/5172418.jpg);
+}
+
+.menu3 {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100px;
+}
+
+.menu3 li {
+	display: inline-block;
+	padding: 0px 13px 10px 13px;
+	text-transform: uppercase;
+	color: #a09f9f;
+	margin-top: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 17px;
+	border-bottom: 3px solid #fff;
+	margin-left: -2px;
+	margin-right: -2px;
+	cursor: pointer;
+}
+
+.menu3 li:hover {
+	border-bottom: 6px solid #26b1db;
+	color: white;
+	padding-bottom: 7px;
+}
+
+#blok {
+	text-align: center;
+}
+
+.ramka {
+	display: inline-block;
+	width: 260px;
+	height: 380px;
+	margin: 5px;
+	background-color: #fff;
+	position: relative;
+	top: 20px;
+}
+
+.ramka h2 {
+	text-align: justify;
+	font-size: 20px;
+	font-family: RockB;
+	text-transform: uppercase;
+	padding: 20px 10px 4px 10px;
+	margin: 0;
+}
+
+.ramka h3 {
+	text-align: justify;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 4px 10px 4px 10px;
+	margin: 0;
+	color: #26b1db;
+}
+
+.ramka p {
+	text-align: justify;
+	font-size: 11px;
+	padding: 5px 10px;
+	margin: 0;
+}
+
+.pobierz {
+	background-color: #01addb;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 240px;
+}
+
+.pobierz a {
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+footer h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #b8b5b5;
+	margin: 70px 0px 70px 240px;
+}
+
+#kontakty {
+	text-align: center;
+}
+
+.kontakt {
+	display: inline-block;
+	width: 360px;
+	height: 140px;
+}
+
+.kontakt img {
+	scale: 1.2;
+}
+
+.opis {
+	float: right;
+	text-align: justify;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+
+.opis h2 {
+	font-family: RockB;
+	font-size: 20px;
+	margin: 0;
+	margin-top: 30px;
+}
+
+.opis h3 {
+	font-size: 10px;
+	margin: 0;
+}
+
+.opis span {
+	color: #01addb;
+}
+
+#stopka {
+	background-color: black;
+	height: 200px;
+	margin-top: 100px;
+	padding-left: 150px;
+}
+
+.menu4 {
+	float: left;
+	width: 100px;
+	margin: 40px 10px 40px 10px;
+}
+
+.menu4 p {
+	color: #989898;
+	list-style-type: none;
+	margin: 0;
+	font-size: 13px;
+}
+
+.menu4 a {
+	color: #989898;
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+}
+
+.menu4 li {
+	font-family: RockB;
+	margin-bottom: 12px;
+	color: white;
+	list-style-type: none;
+}
+
+.menu4 li:hover {
+	color: #26b1db;
+}
+
+#stopka .logo {
+	position: static;
+	display: inline-block;
+	scale: 1.3;
+	margin-top: 40px;
+	width: 250px;
+	margin-left: 230px;
+}
+
+#stopka .logo > h2 {
+	color: white;
+}
